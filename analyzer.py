@@ -114,14 +114,3 @@ def sentence_operations(all_counts):
         if word_count > max:
             max = word_count
     return max
-                
-print(sentiment_analysis(text))
-sentences = find_sentence_number(text)
-print(average_sentence_length(sentences))
-print(find_max_min_word(sentences))
-print(count_word(sentences), len(count_word(sentences)))
-
-
-all_counts = word_by_sentence(sentences)
-print(all_counts)
-print(sentence_operations(all_counts))
